@@ -1,0 +1,46 @@
+.title {
+    text-align: center;
+}
+
+.mew-form , .loading{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.loading {
+    text-align: center;
+}
+
+
+.msgs{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.msgs > div {
+    background:#91a3b0;
+    padding: 12px;
+    border-radius: 4px;
+  }
+
+
+  .msgs  > div > h3 {
+    word-wrap: break-word;
+  }
+
+  .msgs > div > p {
+    word-wrap: break-word;
+  }
+
+
+  
+.msgs > div:not(:last-child) {
+    margin-bottom: 8px;
+  }
+  
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+  }

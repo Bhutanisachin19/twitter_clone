@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> Chatbook </title>
+        <meta name="viewport" content="width=device-width , initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body style="background-color:#3b444b;">
+        <header>
+            <h1 class="title" style="color: #DAE0E2;"> Chatbook </h1>
+        </header>
+        <main>
+            <form class="mew-form">
+                <label for="name" style="color:#8395A7 ;" >Name</label>
+                <input class="u-full-width" type="text" id="name" name="name">
+
+                
+                <label for="content" style="color:#8395A7 ;">Message</label>
+                <textarea class="u-full-width" type="text" id="content" name="content"> </textarea>
+                
+                <button class="button-primary">Send Chat</button>
+
+            </form>
+            <br>
+            <div class="loading">
+                <img src="loading.gif" alt="">
+            </div>
+            <div class="msgs">
+                
+            </div>
+        </main>
+        <script src="client.js"></script>
+    </body>
+</html> 
